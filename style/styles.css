@@ -1,0 +1,39 @@
+* {
+    transition: all 0.3s;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 200%;
+    font-family: calibri;
+    color: white;
+    background: linear-gradient(rgb(8, 94, 128), rgb(240, 56, 56));
+}
+
+.marco {
+    border-radius: 30px;
+    background: rgb(16, 3, 85);
+    padding: 30px;
+    border: 5px solid rgb(71, 7, 7);
+}
+
+.botones-contenedor {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 60%;
+    padding: 20px;
+}
+
+h1 {
+    vertical-align: auto;
+    color: whitesmoke;
+    font-family: Arial;
+}

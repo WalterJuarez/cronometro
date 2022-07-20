@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="style/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script src="logica/funcion_crono.js"></script>
+    <link rel="icon" href="image/reloj2.png">
+    <title>Cronometro</title>
+
+</head>
+
+<body>
+
+    <div class="marco">
+        <h1>Cronometro</h1>
+        <br>
+        <h1>
+            <div class="tiempo" id="tiempo"> 00:00:00.000</div>
+        </h1>
+        <div class="botones-contenedor">
+            <div class="btn" onclick="iniciar()">
+                <i class="fas fa-play"></i>
+            </div>
+            <div class="btn" onclick="pausar()">
+                <i class="fas fa-pause"></i>
+            </div>
+            <div class="btn" onclick="reiniciar()">
+                <i class="fas fa-undo-alt"></i>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
